@@ -1,0 +1,16 @@
+[project]
+name = "mnist-digit-classifier"
+version = "0.1.0"
+description = "Train and evaluate a convolutional neural network on MNIST"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pillow>=10,<13",
+    "torch>=2.6,<3",
+    "torchvision>=0.21,<1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.uv]
+package = false
