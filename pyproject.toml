@@ -2,7 +2,7 @@
 name = "mnist-digit-classifier"
 version = "0.1.0"
 description = "Train and evaluate a convolutional neural network on MNIST"
-requires-python = ">=3.12,<3.13"
+requires-python = ">=3.15"
 dependencies = [
     "pillow>=10,<13",
     "torch>=2.6,<3",

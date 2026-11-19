@@ -6,7 +6,7 @@ and predict individual digits.
 
 ## Run the Python program
 
-These instructions use Python 3.12 on Windows and macOS. Install Git and
+These instructions use Python 3.15 on Windows and macOS. Install Git and
 [uv](https://docs.astral.sh/uv/getting-started/installation/) once, then
 follow the same clone and run steps on either platform.
 
@@ -63,7 +63,7 @@ Close and reopen Terminal after installing.
    uv sync --locked
    ```
 
-   uv uses Python 3.12 and installs the versions recorded in `uv.lock`.
+   uv uses Python 3.15 and installs the versions recorded in `uv.lock`.
 
 ### Check your setup
 
@@ -75,7 +75,7 @@ uv --version
 uv run --locked python --version
 ```
 
-The last command should print `Python 3.12.x`, where `x` is the patch version.
+The last command should print `Python 3.15.x`, where `x` is the patch version.
 If the program cannot find `mnist.py` or `pyproject.toml`, check that you are
 in the repository folder.
 
